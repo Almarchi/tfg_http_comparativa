@@ -1,0 +1,13 @@
+flask
+brotli
+gevent
+raven
+requests
+six
+werkzeug==1.0.1
+markupsafe==2.0.1
+flasgger
+decorator
+gunicorn
+httpbin
+flask-cors

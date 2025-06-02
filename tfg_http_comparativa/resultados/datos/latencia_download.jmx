@@ -1,0 +1,7 @@
+label,latency
+Apache HTTP/1.1,17
+NGINX HTTP/2,2
+Caddy HTTP/3 (simulado),2
+Apache HTTP/1.1,2
+NGINX HTTP/2,1
+Caddy HTTP/3 (simulado),3

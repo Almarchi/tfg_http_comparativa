@@ -1,0 +1,13 @@
+tipo,servidor,url,iteracion,tiempo_s,rps,bytes,concurrencia
+curl-Apache,Apache,http://tynnisy6sdu5vdebxowexe7j4sqdsnj4mryqy6kodgpe26gra7mbkoqd.onion/get,1,1.76,NA,449,1
+ab-Apache,Apache,http://tynnisy6sdu5vdebxowexe7j4sqdsnj4mryqy6kodgpe26gra7mbkoqd.onion/get,1,0.778,1.28,672,1
+curl-NGINX,NGINX,http://5n72jkg5pumhthnfrt23u53sgh6xtl2xrljw4ngobm5a4qj65doqvoyd.onion/get,1,1.34,NA,312,1
+ab-NGINX,NGINX,http://5n72jkg5pumhthnfrt23u53sgh6xtl2xrljw4ngobm5a4qj65doqvoyd.onion/get,1,0.879,1.14,539,1
+curl-Caddy,Caddy,http://uzexzv4f622lsxi6j75fbbz2itbfh2xkg7semp6ax6gqdrgz4zcbq5qd.onion/get,1,1.31,NA,407,1
+ab-Caddy,Caddy,http://uzexzv4f622lsxi6j75fbbz2itbfh2xkg7semp6ax6gqdrgz4zcbq5qd.onion/get,1,0.676,1.48,627,1
+curl-Apache,Apache,http://tynnisy6sdu5vdebxowexe7j4sqdsnj4mryqy6kodgpe26gra7mbkoqd.onion/download,1,16.32,NA,6235548,1
+ab-Apache,Apache,http://tynnisy6sdu5vdebxowexe7j4sqdsnj4mryqy6kodgpe26gra7mbkoqd.onion/download,1,18.120,0.06,6236007,1
+curl-NGINX,NGINX,http://5n72jkg5pumhthnfrt23u53sgh6xtl2xrljw4ngobm5a4qj65doqvoyd.onion/download,1,22.59,NA,6235548,1
+ab-NGINX,NGINX,http://5n72jkg5pumhthnfrt23u53sgh6xtl2xrljw4ngobm5a4qj65doqvoyd.onion/download,1,22.623,0.04,6236011,1
+curl-Caddy,Caddy,http://uzexzv4f622lsxi6j75fbbz2itbfh2xkg7semp6ax6gqdrgz4zcbq5qd.onion/download,1,10.38,NA,6235548,1
+ab-Caddy,Caddy,http://uzexzv4f622lsxi6j75fbbz2itbfh2xkg7semp6ax6gqdrgz4zcbq5qd.onion/download,1,10.712,0.09,6236004,1

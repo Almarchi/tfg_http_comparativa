@@ -1,0 +1,13 @@
+tipo,servidor,url,iteracion,tiempo_s,rps,bytes,concurrencia
+curl-Apache,Apache,http://127.0.0.1:8081/get,1,0.00,NA,305,1
+ab-Apache,Apache,http://127.0.0.1:8081/get,1,0.047,1064.12,26400,1
+curl-NGINX,NGINX,http://127.0.0.1:8082/get,1,0.00,NA,206,1
+ab-NGINX,NGINX,http://127.0.0.1:8082/get,1,0.037,1369.08,21650,1
+curl-Caddy,Caddy,http://127.0.0.1:8083/get,1,0.00,NA,263,1
+ab-Caddy,Caddy,http://127.0.0.1:8083/get,1,0.053,939.87,24150,1
+curl-Apache,Apache,http://127.0.0.1:8081/download,1,0.02,NA,6235548,1
+ab-Apache,Apache,http://127.0.0.1:8081/download,1,0.768,65.09,311800350,1
+curl-NGINX,NGINX,http://127.0.0.1:8082/download,1,0.02,NA,6235548,1
+ab-NGINX,NGINX,http://127.0.0.1:8082/download,1,0.675,74.05,311800550,1
+curl-Caddy,Caddy,http://127.0.0.1:8083/download,1,0.02,NA,6235548,1
+ab-Caddy,Caddy,http://127.0.0.1:8083/download,1,0.574,87.03,311800200,1
